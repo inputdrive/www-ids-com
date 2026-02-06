@@ -2,12 +2,7 @@
   "routes": [
     {
       "route": "/index.html",
-      "redirect": "https://www.inputdrivesecurity.com/",
-      "statusCode": 301
-    },
-    {
-      "route": "/",
-      "redirect": "https://www.inputdrivesecurity.com/",
+      "redirect": "/",
       "statusCode": 301
     }
   ],
