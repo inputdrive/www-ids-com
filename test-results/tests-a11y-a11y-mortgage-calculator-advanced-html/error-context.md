@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Input Drive Security home" [ref=e6] [cursor=pointer]:
+          - /url: /index.html
+          - img "Input Drive Security" [ref=e7]
+          - strong [ref=e8]: Input Drive Security
+        - link "Follow on X" [ref=e9] [cursor=pointer]:
+          - /url: https://x.com/greg_inputdrive
+          - img "X" [ref=e10]
+        - link "View on GitHub" [ref=e12] [cursor=pointer]:
+          - /url: https://github.com/inputdrive
+          - img "GitHub" [ref=e13]
+        - link "Connect on LinkedIn" [ref=e15] [cursor=pointer]:
+          - /url: https://linkedin.com/in/greggutman/
+          - img "LinkedIn" [ref=e16]
+        - button "Toggle light and dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - navigation "Main navigation" [ref=e21]:
+        - link "Index" [ref=e22] [cursor=pointer]:
+          - /url: /index.html
+  - complementary [ref=e23]:
+    - insertion [ref=e24]:
+      - iframe [ref=e26]:
+        
+  - complementary [ref=e27]:
+    - insertion [ref=e28]:
+      - iframe [ref=e30]:
+        
+  - main [ref=e31]:
+    - heading "Mortgage Calculator Advanced" [level=1] [ref=e32]
+    - paragraph [ref=e33]: Explore how extra monthly payments can reduce interest and shorten your loan. All calculations are performed locally in your browser—no data is sent to any server.
+    - heading "Calculator Inputs:" [level=3] [ref=e34]
+    - list [ref=e35]:
+      - listitem [ref=e36]:
+        - strong [ref=e37]: "Loan Amount:"
+        - text: The principal amount borrowed (in dollars)
+      - listitem [ref=e38]:
+        - strong [ref=e39]: "Annual Interest Rate:"
+        - text: The yearly interest rate as a percentage (e.g., 6.5 for 6.5%)
+      - listitem [ref=e40]:
+        - strong [ref=e41]: "Loan Period:"
+        - text: The total number of years to repay the loan
+      - listitem [ref=e42]:
+        - strong [ref=e43]: "Additional Monthly Payment:"
+        - text: Any extra amount paid each month toward principal (optional)
+    - text: "Loan Amount ($):"
+    - spinbutton "Loan Amount ($):" [ref=e44]
+    - text: "Annual Interest Rate (%):"
+    - spinbutton "Annual Interest Rate (%):" [ref=e45]
+    - text: "Loan Period (in years):"
+    - spinbutton "Loan Period (in years):" [ref=e46]
+    - text: "Additional Monthly Payment ($) (optional):"
+    - spinbutton "Additional Monthly Payment ($) (optional):" [ref=e47]
+    - button "Calculate" [ref=e48]
+    - button "Print Results" [ref=e49]
+    - heading "Results:" [level=2] [ref=e50]
+    - separator [ref=e52]
+    - heading "How Extra Payments Work:" [level=3] [ref=e53]
+    - paragraph [ref=e54]: "When you pay extra each month, that amount goes directly toward reducing the principal balance. Since interest is calculated on the remaining balance, paying extra:"
+    - list [ref=e55]:
+      - listitem [ref=e56]: Reduces the total interest you'll pay over the life of the loan
+      - listitem [ref=e57]: Shortens the time it takes to pay off the loan
+      - listitem [ref=e58]: Builds equity faster in your home
+    - heading "⚠️ Important Disclaimers:" [level=3] [ref=e59]
+    - list [ref=e60]:
+      - listitem [ref=e61]:
+        - strong [ref=e62]: "Loan Amount Only:"
+        - text: "This calculator estimates payments based solely on the loan principal, interest rate, and term. It does NOT include:"
+      - list [ref=e63]:
+        - listitem [ref=e64]: Property taxes
+        - listitem [ref=e65]: Homeowners insurance
+        - listitem [ref=e66]: HOA fees
+        - listitem [ref=e67]: PMI (Private Mortgage Insurance)
+        - listitem [ref=e68]: Origination fees, closing costs, or points
+        - listitem [ref=e69]: Prepayment penalties or other adjustments
+      - listitem [ref=e70]:
+        - strong [ref=e71]: "Not Financial Advice:"
+        - text: This tool is for educational estimation purposes only. It is not professional financial, tax, or legal advice. Always consult with a qualified mortgage lender, financial advisor, or tax professional for accurate loan quotes and personalized recommendations.
+      - listitem [ref=e72]:
+        - strong [ref=e73]: "Accuracy:"
+        - text: Results are approximate. Actual payments may vary based on your lender's terms, fees, and market conditions.
+      - listitem [ref=e74]:
+        - strong [ref=e75]: "Extra Payments:"
+        - text: Some lenders may impose prepayment penalties. Check your loan documents before making extra payments.
+    - paragraph:
+      - time
+    - paragraph [ref=e76]:
+      - link "Back to Index" [ref=e77] [cursor=pointer]:
+        - /url: /index.html
+  - contentinfo [ref=e78]:
+    - generic [ref=e79]: © 2025 Input Drive Security
+```

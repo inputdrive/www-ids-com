@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Input Drive Security home" [ref=e6] [cursor=pointer]:
+          - /url: /index.html
+          - img "Input Drive Security" [ref=e7]
+          - strong [ref=e8]: Input Drive Security
+        - link "Follow on X" [ref=e9] [cursor=pointer]:
+          - /url: https://x.com/greg_inputdrive
+          - img "X" [ref=e10]
+        - link "View on GitHub" [ref=e12] [cursor=pointer]:
+          - /url: https://github.com/inputdrive
+          - img "GitHub" [ref=e13]
+        - link "Connect on LinkedIn" [ref=e15] [cursor=pointer]:
+          - /url: https://linkedin.com/in/greggutman/
+          - img "LinkedIn" [ref=e16]
+        - button "Toggle light and dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - navigation "Main navigation" [ref=e21]:
+        - link "Home" [ref=e22] [cursor=pointer]:
+          - /url: /index.html
+  - complementary [ref=e23]:
+    - insertion [ref=e24]:
+      - iframe [ref=e26]:
+        
+  - complementary [ref=e27]:
+    - insertion [ref=e28]:
+      - iframe [ref=e30]:
+        
+  - main [ref=e31]:
+    - heading "Security Tools & Resources" [level=1] [ref=e32]
+    - paragraph [ref=e33]: A curated collection of essential cybersecurity tools, frameworks, and learning platforms for security professionals, penetration testers, and enthusiasts.
+    - heading "Top Security Tools & Platforms" [level=2] [ref=e34]
+    - generic [ref=e35]:
+      - link "Kali Linux Penetration testing distribution with hundreds of preinstalled tools." [ref=e36] [cursor=pointer]:
+        - /url: https://www.kali.org/
+        - img [ref=e38]
+        - generic [ref=e40]:
+          - heading "Kali Linux" [level=4] [ref=e41]
+          - paragraph [ref=e42]: Penetration testing distribution with hundreds of preinstalled tools.
+      - link "Nmap Network discovery and security auditing for scanning hosts and services." [ref=e43] [cursor=pointer]:
+        - /url: https://nmap.org/
+        - img [ref=e45]
+        - generic [ref=e46]:
+          - heading "Nmap" [level=4] [ref=e47]
+          - paragraph [ref=e48]: Network discovery and security auditing for scanning hosts and services.
+      - link "Metasploit Penetration testing framework for developing and executing exploits." [ref=e49] [cursor=pointer]:
+        - /url: https://www.metasploit.com/
+        - img [ref=e51]
+        - generic [ref=e52]:
+          - heading "Metasploit" [level=4] [ref=e53]
+          - paragraph [ref=e54]: Penetration testing framework for developing and executing exploits.
+      - link "MITRE ATT&CK Knowledge base of adversary tactics and techniques for threat modeling." [ref=e55] [cursor=pointer]:
+        - /url: https://attack.mitre.org/
+        - img [ref=e57]
+        - generic [ref=e59]:
+          - heading "MITRE ATT&CK" [level=4] [ref=e60]
+          - paragraph [ref=e61]: Knowledge base of adversary tactics and techniques for threat modeling.
+      - link "HackTheBox Practice offensive security with vulnerable machines and challenges." [ref=e62] [cursor=pointer]:
+        - /url: https://www.hackthebox.com/
+        - img [ref=e64]
+        - generic [ref=e66]:
+          - heading "HackTheBox" [level=4] [ref=e67]
+          - paragraph [ref=e68]: Practice offensive security with vulnerable machines and challenges.
+      - link "Bugcrowd Crowdsourced security platform connecting orgs with ethical hackers." [ref=e69] [cursor=pointer]:
+        - /url: https://www.bugcrowd.com/
+        - img [ref=e71]
+        - generic [ref=e73]:
+          - heading "Bugcrowd" [level=4] [ref=e74]
+          - paragraph [ref=e75]: Crowdsourced security platform connecting orgs with ethical hackers.
+    - heading "Top Security Tools & Resources" [level=2] [ref=e76]
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "NVD (National Vulnerability Database)" [ref=e79] [cursor=pointer]:
+          - /url: https://nvd.nist.gov/
+          - img [ref=e81]
+          - text: NVD (National Vulnerability Database)
+        - text: — Canonical CVE database with CVSS scores.
+      - listitem [ref=e83]:
+        - link "GitHub Security Advisories" [ref=e84] [cursor=pointer]:
+          - /url: https://github.com/advisories
+          - img [ref=e86]
+          - text: GitHub Security Advisories
+        - text: — Fast repo-level advisories for open-source dependencies.
+      - listitem [ref=e88]:
+        - link "OWASP ZAP" [ref=e89] [cursor=pointer]:
+          - /url: https://owasp.org/www-project-zap/
+          - img [ref=e91]
+          - text: OWASP ZAP
+        - text: — Open-source web-app scanner (CI/manual testing).
+      - listitem [ref=e93]:
+        - link "OWASP Top Ten" [ref=e94] [cursor=pointer]:
+          - /url: https://owasp.org/www-project-top-ten/
+          - img [ref=e96]
+          - text: OWASP Top Ten
+        - text: — Concise web-app threat list and mitigations for developers.
+      - listitem [ref=e98]:
+        - link "Wireshark" [ref=e99] [cursor=pointer]:
+          - /url: https://www.wireshark.org/
+          - img [ref=e101]
+          - text: Wireshark
+        - text: — Industry-standard packet analyzer for network forensics.
+      - listitem [ref=e103]:
+        - link "Zeek (formerly Bro)" [ref=e104] [cursor=pointer]:
+          - /url: https://zeek.org/
+          - img [ref=e106]
+          - text: Zeek (formerly Bro)
+        - text: — Network analysis and monitoring framework.
+      - listitem [ref=e108]:
+        - link "TryHackMe" [ref=e109] [cursor=pointer]:
+          - /url: https://tryhackme.com/
+          - img [ref=e111]
+          - text: TryHackMe
+        - text: — Guided hands-on labs and training.
+      - listitem [ref=e113]:
+        - link "VulnHub" [ref=e114] [cursor=pointer]:
+          - /url: https://vulnhub.com/
+          - img [ref=e116]
+          - text: VulnHub
+        - text: — Downloadable vulnerable VMs for practice and CTF prep.
+      - listitem [ref=e118]:
+        - link "Shodan" [ref=e119] [cursor=pointer]:
+          - /url: https://www.shodan.io/
+          - img [ref=e121]
+          - text: Shodan
+        - text: — Search engine for Internet-connected devices for asset discovery.
+      - listitem [ref=e124]:
+        - link "Exploit-DB" [ref=e125] [cursor=pointer]:
+          - /url: https://www.exploit-db.com/
+          - img [ref=e127]
+          - text: Exploit-DB
+        - text: — Repository of exploits and security research documents.
+      - listitem [ref=e129]:
+        - link "CVE (Common Vulnerabilities and Exposures)" [ref=e130] [cursor=pointer]:
+          - /url: https://cve.mitre.org/
+          - img [ref=e132]
+          - text: CVE (Common Vulnerabilities and Exposures)
+        - text: — Canonical CVE registry and references.
+      - listitem [ref=e134]:
+        - link "CWE (Common Weakness Enumeration)" [ref=e135] [cursor=pointer]:
+          - /url: https://cwe.mitre.org/
+          - img [ref=e137]
+          - text: CWE (Common Weakness Enumeration)
+        - text: — Classification of software/hardware weaknesses.
+      - listitem [ref=e139]:
+        - link "CAPEC" [ref=e140] [cursor=pointer]:
+          - /url: https://capec.mitre.org/
+          - img [ref=e142]
+          - text: CAPEC
+        - text: — Dictionary of attack patterns and methodologies.
+      - listitem [ref=e145]:
+        - link "CCE (Common Configuration Enumeration)" [ref=e146] [cursor=pointer]:
+          - /url: https://cce.mitre.org/
+          - img [ref=e148]
+          - text: CCE (Common Configuration Enumeration)
+        - text: — Standardized identifiers for secure configurations.
+      - listitem [ref=e150]:
+        - link "Dark Reading" [ref=e151] [cursor=pointer]:
+          - /url: https://www.darkReading.com/
+          - img [ref=e153]
+          - text: Dark Reading
+        - text: — News and analysis on cybersecurity threats and trends.
+      - listitem [ref=e155]:
+        - link "Security Onion" [ref=e156] [cursor=pointer]:
+          - /url: https://securityonion.net/
+          - img [ref=e158]
+          - text: Security Onion
+        - text: — Linux distribution for threat hunting and monitoring.
+      - listitem [ref=e160]:
+        - link "CISA — Known Exploited Vulnerabilities (KEV)" [ref=e161] [cursor=pointer]:
+          - /url: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+          - img [ref=e163]
+          - text: CISA — Known Exploited Vulnerabilities (KEV)
+        - text: — Government-maintained list for prioritization.
+    - paragraph:
+      - time
+  - contentinfo [ref=e165]:
+    - generic [ref=e166]: © 2025 Input Drive Security
+  - paragraph [ref=e167]:
+    - link "Back to Index" [ref=e168] [cursor=pointer]:
+      - /url: /index.html
+```

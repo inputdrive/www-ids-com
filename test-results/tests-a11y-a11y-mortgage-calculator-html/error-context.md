@@ -1,0 +1,89 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Input Drive Security home" [ref=e6] [cursor=pointer]:
+          - /url: /index.html
+          - img "Input Drive Security" [ref=e7]
+          - strong [ref=e8]: Input Drive Security
+        - link "Follow on X" [ref=e9] [cursor=pointer]:
+          - /url: https://x.com/greg_inputdrive
+          - img "X" [ref=e10]
+        - link "View on GitHub" [ref=e12] [cursor=pointer]:
+          - /url: https://github.com/inputdrive
+          - img "GitHub" [ref=e13]
+        - link "Connect on LinkedIn" [ref=e15] [cursor=pointer]:
+          - /url: https://linkedin.com/in/greggutman/
+          - img "LinkedIn" [ref=e16]
+        - button "Toggle light and dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - navigation "Main navigation" [ref=e21]:
+        - link "Index" [ref=e22] [cursor=pointer]:
+          - /url: /index.html
+  - complementary [ref=e23]:
+    - insertion [ref=e24]:
+      - iframe [ref=e26]:
+        
+  - complementary [ref=e27]:
+    - insertion [ref=e28]:
+      - iframe [ref=e30]:
+        
+  - main [ref=e31]:
+    - heading "Mortgage Calculator" [level=1] [ref=e32]
+    - paragraph [ref=e33]: Estimate your monthly mortgage payment based on loan amount, annual interest rate, and loan term. All calculations are performed locally in your browser—no data is sent to any server.
+    - heading "Calculator Inputs:" [level=3] [ref=e34]
+    - list [ref=e35]:
+      - listitem [ref=e36]:
+        - strong [ref=e37]: "Loan Amount:"
+        - text: The principal amount borrowed (in dollars)
+      - listitem [ref=e38]:
+        - strong [ref=e39]: "Annual Interest Rate:"
+        - text: The yearly interest rate as a percentage (e.g., 6.5 for 6.5%)
+      - listitem [ref=e40]:
+        - strong [ref=e41]: "Loan Term:"
+        - text: The total number of years to repay the loan
+    - generic [ref=e42]:
+      - text: "Loan Amount ($):"
+      - spinbutton "Loan Amount ($):" [ref=e43]
+      - text: "Annual Interest Rate (%):"
+      - spinbutton "Annual Interest Rate (%):" [ref=e44]
+      - text: "Loan Term (years):"
+      - spinbutton "Loan Term (years):" [ref=e45]
+      - button "Calculate" [ref=e46]
+    - heading "Estimated Monthly Payment:" [level=2] [ref=e47]
+    - paragraph [ref=e48]:
+      - strong [ref=e49]: "Monthly Payment: $—"
+    - paragraph [ref=e50]: "Total Amount Paid: $—"
+    - paragraph [ref=e51]: "Total Interest Paid: $—"
+    - separator [ref=e52]
+    - heading "⚠️ Important Disclaimers:" [level=3] [ref=e53]
+    - list [ref=e54]:
+      - listitem [ref=e55]:
+        - strong [ref=e56]: "Loan Amount Only:"
+        - text: "This calculator estimates payments based solely on the loan principal, interest rate, and term. It does NOT include:"
+      - list [ref=e57]:
+        - listitem [ref=e58]: Property taxes
+        - listitem [ref=e59]: Homeowners insurance
+        - listitem [ref=e60]: HOA fees
+        - listitem [ref=e61]: PMI (Private Mortgage Insurance)
+        - listitem [ref=e62]: Origination fees, closing costs, or points
+        - listitem [ref=e63]: Prepayment penalties or other adjustments
+      - listitem [ref=e64]:
+        - strong [ref=e65]: "Not Financial Advice:"
+        - text: This tool is for educational estimation purposes only. It is not professional financial, tax, or legal advice. Always consult with a qualified mortgage lender, financial advisor, or tax professional for accurate loan quotes and personalized recommendations.
+      - listitem [ref=e66]:
+        - strong [ref=e67]: "Accuracy:"
+        - text: Results are approximate. Actual payments may vary based on your lender's terms, fees, and market conditions.
+    - paragraph [ref=e68]:
+      - time [ref=e69]: "Page last edited: 2/6/2026, 10:16:39 AM"
+    - paragraph [ref=e70]:
+      - link "Back to Index" [ref=e71] [cursor=pointer]:
+        - /url: /index.html
+  - contentinfo [ref=e72]:
+    - generic [ref=e73]: © 2026 Input Drive Security
+```

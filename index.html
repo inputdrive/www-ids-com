@@ -6,9 +6,9 @@
     <meta name="google-adsense-account" content="ca-pub-5393775575907084">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Frame-Options" content="DENY">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="description" content="Personal GitHub Pages site containing small demos, utilities, and examples.">
+    <meta name="description" content="Input Drive Security — security tools, mortgage calculators, and web development demos.">
     <meta name="theme-color" content="#ffffff">
     <meta name="color-scheme" content="light dark">
     <meta property="og:title" content="Input Drive Security | Tools & Calculators">
@@ -73,7 +73,6 @@
              data-ad-client="ca-pub-5393775575907084"
              data-ad-slot="1111111111"
              data-ad-format="auto"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </aside>
 
     <aside class="ads-side right" role="complementary" aria-label="Right sidebar advertisement">
@@ -81,7 +80,6 @@
              data-ad-client="ca-pub-5393775575907084"
              data-ad-slot="2222222222"
              data-ad-format="auto"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </aside>
 
     <main id="main-content" role="main" style="max-width:900px;margin:28px auto;padding:0 16px;line-height:1.6;">
@@ -204,19 +202,13 @@
     <div style="clear:both;"></div>
 
     <footer class="site-footer">
-        <div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+        <div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
         <div style="margin-top:8px;"><a href="/contact.html">Contact</a></div>
         <div id="ipInfo" role="status" aria-live="polite" style="font-size:0.85rem;margin-top:8px;min-height:20px;"></div>
     </footer>
 
     <script>
-        (function updateLastModified(){
-            const timeEl = document.getElementById('lastModifiedTime');
-            if (!timeEl) return;
-            const dt = new Date(document.lastModified || new Date());
-            timeEl.setAttribute('datetime', dt.toISOString());
-            timeEl.textContent = 'Page last edited: ' + dt.toLocaleString();
-        })();
+
 
         // Lazy-load geolocation only when footer is visible
         (function lazyLoadGeolocation() {
@@ -309,30 +301,7 @@
                 }
             );
         }
-        /* Theme toggle: apply saved preference or follow system */
-        (function themeInit(){
-            const btn = document.getElementById('themeToggle');
-            if (!btn) return;
-            const apply = (theme) => {
-                if (theme === 'dark') {
-                    document.body.setAttribute('data-theme', 'dark');
-                    btn.setAttribute('aria-pressed', 'true');
-                } else {
-                    document.body.removeAttribute('data-theme');
-                    btn.setAttribute('aria-pressed', 'false');
-                }
-            };
-            const saved = localStorage.getItem('site-theme');
-            if (saved) apply(saved);
-            else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) apply('dark');
-
-            btn.addEventListener('click', () => {
-                const isDark = document.body.getAttribute('data-theme') === 'dark';
-                const next = isDark ? 'light' : 'dark';
-                apply(next);
-                localStorage.setItem('site-theme', next);
-            });
-        })();    </script>
+    <script src="/scripts/site.js" defer></script>
     <script src="/scripts/theme.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Input Drive Security home" [ref=e6] [cursor=pointer]:
+          - /url: /index.html
+          - img "Input Drive Security" [ref=e7]
+          - generic [ref=e8]: Example Site
+        - link "Index" [ref=e9] [cursor=pointer]:
+          - /url: /index.html
+        - button "Toggle light and dark mode" [ref=e10]:
+          - img [ref=e11]
+      - navigation "Primary" [ref=e13]:
+        - link "Articles" [ref=e14] [cursor=pointer]:
+          - /url: "#content"
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Privacy" [ref=e17] [cursor=pointer]:
+          - /url: "#privacy"
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - article "A Practical Starter Template for an AdSense‑Ready Site" [ref=e20]:
+        - generic [ref=e21]:
+          - heading "A Practical Starter Template for an AdSense‑Ready Site" [level=1] [ref=e22]
+          - paragraph [ref=e23]:
+            - text: By Alex Example • Updated
+            - time [ref=e24]: September 1, 2025
+        - complementary "advertisement" [ref=e25]:
+          - insertion [ref=e26]:
+            - iframe [ref=e28]:
+              
+        - heading "What makes a page acceptable?" [level=2] [ref=e29]
+        - paragraph [ref=e30]: Google looks for original, valuable content, a good user experience, and compliance with policies. This template keeps layout shifts low, loads fast, and includes clear navigation and site policies.
+        - paragraph [ref=e31]: "Avoid intrusive UX patterns: auto‑refreshing pages, misleading labels, or placing ads where users are likely to mis‑tap. Keep ad density reasonable—especially on mobile—and don’t hide content behind ads."
+        - heading "Performance & UX basics" [level=2] [ref=e32]
+        - list [ref=e33]:
+          - listitem [ref=e34]: Fast load times (light CSS, no heavy frameworks).
+          - listitem [ref=e35]: Accessible markup (labels, landmarks, good contrast).
+          - listitem [ref=e36]: Responsive, mobile‑first layout.
+          - listitem [ref=e37]: Clear navigation and policy pages/sections.
+        - complementary "advertisement" [ref=e38]:
+          - insertion [ref=e39]:
+            - iframe [ref=e41]:
+              
+        - heading "Content quality" [level=2] [ref=e42]
+        - paragraph [ref=e43]: "Publish original writing, add images you own or have rights to use, and avoid scraped or auto‑generated text. Keep topics safe for ads: no adult, illegal, hateful, or shocking content."
+        - heading "About" [level=2] [ref=e44]
+        - paragraph [ref=e45]: Example Site is a demo showing clean structure and ad placements without clutter. Swap this text for your mission statement and real author bio.
+        - heading "Contact" [level=2] [ref=e46]
+        - paragraph [ref=e47]:
+          - text: Questions? Email
+          - link "hello@example.com" [ref=e48] [cursor=pointer]:
+            - /url: mailto:hello@example.com
+          - text: .
+        - heading "Privacy Policy" [level=2] [ref=e49]
+        - paragraph [ref=e50]:
+          - text: We use cookies to improve the site and to serve ads. Third‑party vendors, including Google, use cookies to serve ads based on past visits. Google’s use of advertising cookies enables it and its partners to serve ads based on your visits to this and/or other sites. You can opt out of personalized advertising by visiting
+          - link "Ads Settings" [ref=e51] [cursor=pointer]:
+            - /url: https://www.google.com/settings/ads
+          - text: .
+        - paragraph [ref=e52]: If you decline consent below, we request non‑personalized ads. Read more in Google’s policies and your browser’s privacy controls.
+      - complementary "Sidebar" [ref=e53]:
+        - generic [ref=e54]:
+          - heading "Latest Articles" [level=3] [ref=e55]
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "How to speed up your site responsibly" [ref=e58] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e59]:
+              - link "Understanding responsive ad units" [ref=e60] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e61]:
+              - 'link "Consent Mode v2: a gentle intro" [ref=e62] [cursor=pointer]':
+                - /url: "#"
+        - generic [ref=e63]:
+          - heading "Disclosure" [level=3] [ref=e64]
+          - paragraph [ref=e65]: This website may earn revenue from ads. Content is editorially independent.
+        - complementary "advertisement" [ref=e66]:
+          - insertion [ref=e67]:
+            - iframe [ref=e69]:
+              
+    - generic [ref=e70]:
+      - paragraph [ref=e71]:
+        - text: © 2026 Example LLC •
+        - link "Privacy" [ref=e72] [cursor=pointer]:
+          - /url: "#privacy"
+        - text: •
+        - link "Contact" [ref=e73] [cursor=pointer]:
+          - /url: "#contact"
+      - paragraph [ref=e74]:
+        - text: "Tip: Add an ads.txt file at https://www.inputdrivesecurity.com/ads.txt with this line (replace with your website & pub ID):"
+        - code [ref=e75]: google.com, pub-5393775575907084, DIRECT, f08c47fec0942fa0
+  - generic [ref=e76]:
+    - generic [ref=e77]: We use cookies for analytics and to serve ads. Choose your preference.
+    - generic [ref=e78]:
+      - button "Decline personalized ads" [ref=e79] [cursor=pointer]: Decline
+      - button "Accept personalized ads" [ref=e80] [cursor=pointer]: Accept
+  - paragraph [ref=e82]:
+    - link "Back to Index" [ref=e83] [cursor=pointer]:
+      - /url: /index.html
+  - contentinfo [ref=e84]:
+    - generic [ref=e85]: © 2026 Input Drive Security
+    - paragraph [ref=e86]:
+      - time [ref=e87]: "Page last edited: 2/6/2026, 10:16:39 AM"
+```

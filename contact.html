@@ -31,7 +31,7 @@
 		     data-ad-client="ca-pub-5393775575907084"
 		     data-ad-slot="1111111111"
 		     data-ad-format="auto"></ins>
-		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 	</aside>
 
 	<aside class="ads-side right">
@@ -39,7 +39,7 @@
 		     data-ad-client="ca-pub-5393775575907084"
 		     data-ad-slot="2222222222"
 		     data-ad-format="auto"></ins>
-		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 	</aside>
 
 	<main id="main-content" role="main" style="max-width:720px;margin:3rem auto;padding:1rem;">
@@ -73,19 +73,11 @@
 	<div style="clear:both;"></div>
 
 	<footer class="site-footer">
-		<div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+		<div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
 		<p id="lastModified"><time id="lastModifiedTime" datetime=""></time></p>
 	</footer>
 
+	<script src="/scripts/site.js" defer></script>
 	<script src="/scripts/theme.js" defer></script>
-	<script>
-		(function updateLastModified(){
-			const timeEl = document.getElementById('lastModifiedTime');
-			if (!timeEl) return;
-			const dt = new Date(document.lastModified || new Date());
-			timeEl.setAttribute('datetime', dt.toISOString());
-			timeEl.textContent = 'Page last edited: ' + dt.toLocaleString();
-		})();
-	</script>
 </body>
 </html>

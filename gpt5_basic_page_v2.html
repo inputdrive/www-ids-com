@@ -156,7 +156,6 @@
                data-ad-slot="1111111111"
                data-ad-format="auto"
                data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
 
         <h2>What makes a page acceptable?</h2>
@@ -189,7 +188,6 @@
                data-ad-format="fluid"
                data-ad-layout-key="-gw-3+1f-3d+2z"
                data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
 
         <h2>Content quality</h2>
@@ -238,7 +236,6 @@
                data-ad-slot="3333333333"
                data-ad-format="auto"
                data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       </aside>
     </div>
@@ -300,18 +297,13 @@
   </div>
 
   <footer role="contentinfo" style="border-top:1px solid rgba(255,255,255,.06);padding:14px 0;text-align:center;color:var(--muted);margin-top:28px;">
-    <div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+    <div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
     <p id="lastModified"><time id="lastModifiedTime" datetime=""></time></p>
   </footer>
 
-  <script>
-    (function updateLastModified(){
-      const timeEl = document.getElementById('lastModifiedTime');
-      if (!timeEl) return;
-      const dt = new Date(document.lastModified || new Date());
-      timeEl.setAttribute('datetime', dt.toISOString());
-      timeEl.textContent = 'Page last edited: ' + dt.toLocaleString();
-    })();
-  </script>
+  <script src="/scripts/site.js" defer></script>
+  </footer>
+
+
 </body>
 </html>

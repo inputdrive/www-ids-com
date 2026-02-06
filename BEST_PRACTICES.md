@@ -59,7 +59,7 @@
 
 4. **Add X-Frame-Options Header**
    - Prevent clickjacking attacks (CWE-1021: Improper Restriction of Rendered UI Layers or Frames)
-   - Add via `<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">`
+   - Add via `<meta http-equiv="X-Frame-Options" content="DENY">`
 
 ### Priority 2: Accessibility & UX
 
@@ -176,7 +176,7 @@ Create `.github/workflows/security-headers.yml` or configure via HTML meta tags:
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
 <!-- X-Frame-Options: Prevent clickjacking -->
-<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+<meta http-equiv="X-Frame-Options" content="DENY">
 
 <!-- Referrer-Policy: Control how much referrer info is sent -->
 <meta name="referrer" content="strict-origin-when-cross-origin">

@@ -41,21 +41,13 @@
     <p>also hosted with GitHub Pages.</p>
     <p>convert the last modified property into a date object:</p>
     <p id="lastModified"><time id="lastModifiedTime" datetime=""></time></p>
-    <script>
-        (function updateLastModified(){
-            const timeEl = document.getElementById('lastModifiedTime');
-            if (!timeEl) return;
-            const dt = new Date(document.lastModified || new Date());
-            timeEl.setAttribute('datetime', dt.toISOString());
-            timeEl.textContent = 'Page last edited: ' + dt.toLocaleString();
-        })();
-    </script>
     <p><a href="/index.html">Back to Index</a></p>
   </main>
 
   <footer class="site-footer">
-    <div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+    <div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
   </footer>
+  <script src="/scripts/site.js" defer></script>
   <script src="/scripts/theme.js" defer></script>
 </body>
 </html>

@@ -125,7 +125,7 @@
     </main>
 
     <footer class="site-footer">
-        <div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+        <div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
         <div style="margin-top:8px;"><a href="/contact.html">Contact</a></div>
     </footer>
 
@@ -184,9 +184,6 @@
              data-ad-client="${ADSENSE_CLIENT}"
              data-ad-slot="${slotId}"></ins>
     </div>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
     <div style="margin-top:12px;font-size:0.8rem;color:#666;text-align:center;">
         Frame loaded: ${new Date().toLocaleTimeString()}<br>
         Slot ID: ${slotId}
@@ -212,6 +209,14 @@
                     doc.open();
                     doc.write(generateAdSenseHTML(frame.slot, frame.width, frame.height));
                     doc.close();
+                    // Attempt to push ad render in iframe context (same-origin frames only)
+                    try {
+                        const win = iframe.contentWindow;
+                        if (win) {
+                            win.adsbygoogle = win.adsbygoogle || [];
+                            try { win.adsbygoogle.push({}); } catch(e) { console.warn('Frame ad push failed', e); }
+                        }
+                    } catch(e) { console.warn('Could not push ad in iframe context', e); }
                 }
             });
 

@@ -120,18 +120,13 @@
   </main>
 
   <footer role="contentinfo" style="border-top:1px solid #e5e7eb;padding:14px 0;text-align:center;color:#5c667a;margin-top:28px;">
-    <div style="max-width:900px;margin:0 auto;">© 2025 Input Drive Security</div>
+    <div style="max-width:900px;margin:0 auto;">© <span id="footerYear">2025</span> Input Drive Security</div>
     <p id="lastModified"><time id="lastModifiedTime" datetime=""></time></p>
   </footer>
 
-  <script>
-    (function updateLastModified(){
-        const timeEl = document.getElementById('lastModifiedTime');
-        if (!timeEl) return;
-        const dt = new Date(document.lastModified || new Date());
-        timeEl.setAttribute('datetime', dt.toISOString());
-        timeEl.textContent = 'Page last edited: ' + dt.toLocaleString();
-    })();
-  </script>
+  <script src="/scripts/site.js" defer></script>
+  </footer>
+
+
 </body>
 </html>

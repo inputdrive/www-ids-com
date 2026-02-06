@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Input Drive Security home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]:
+            - generic [ref=e10]: ID
+          - strong [ref=e11]: Input Drive Security
+        - link "Follow on X" [ref=e12] [cursor=pointer]:
+          - /url: https://x.com/greg_inputdrive
+          - img "X" [ref=e13]
+        - link "View on GitHub" [ref=e15] [cursor=pointer]:
+          - /url: https://github.com/inputdrive
+          - img "GitHub" [ref=e16]
+        - link "Connect on LinkedIn" [ref=e18] [cursor=pointer]:
+          - /url: https://linkedin.com/in/greggutman/
+          - img "LinkedIn" [ref=e19]
+        - button "Toggle light and dark mode" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - navigation "Main navigation" [ref=e24]:
+        - link "Home" [ref=e25] [cursor=pointer]:
+          - /url: /
+  - complementary "Left sidebar advertisement" [ref=e26]:
+    - insertion [ref=e27]:
+      - iframe [ref=e29]:
+        
+  - complementary "Right sidebar advertisement" [ref=e30]:
+    - insertion [ref=e31]:
+      - iframe [ref=e33]:
+        
+  - main [ref=e34]:
+    - heading "Hello World — Input Drive Security - Index Page" [level=1] [ref=e35]
+    - paragraph [ref=e36]: Small demos, calculators, and examples hosted in this repository, and using a custom domain.
+    - heading "Pages in this site" [level=2] [ref=e37]
+    - heading "Calculators" [level=3] [ref=e38]
+    - generic [ref=e39]:
+      - link "Mortgage Calculator Client-side mortgage payment calculator with privacy-first processing." [ref=e40] [cursor=pointer]:
+        - /url: /mortgage_calculator.html
+        - img [ref=e42]
+        - generic [ref=e45]:
+          - heading "Mortgage Calculator" [level=4] [ref=e46]
+          - paragraph [ref=e47]: Client-side mortgage payment calculator with privacy-first processing.
+      - 'link "Mortgage Calculator — Advanced Extended features: extra payments, amortization, and print-friendly output." [ref=e48] [cursor=pointer]':
+        - /url: /mortgage_calculator_advanced.html
+        - img [ref=e50]
+        - generic [ref=e52]:
+          - heading "Mortgage Calculator — Advanced" [level=4] [ref=e53]
+          - paragraph [ref=e54]: "Extended features: extra payments, amortization, and print-friendly output."
+    - heading "Tools & Security" [level=3] [ref=e55]
+    - generic [ref=e56]:
+      - link "Security Tools & Resources Curated links to top cybersecurity tools, frameworks, and learning platforms." [ref=e57] [cursor=pointer]:
+        - /url: /security_tools.html
+        - img [ref=e59]
+        - generic [ref=e61]:
+          - heading "Security Tools & Resources" [level=4] [ref=e62]
+          - paragraph [ref=e63]: Curated links to top cybersecurity tools, frameworks, and learning platforms.
+      - link "OWASP / Skeleton Security testing templates and experiment pages." [ref=e64] [cursor=pointer]:
+        - /url: /skeleton.html
+        - img [ref=e66]
+        - generic [ref=e68]:
+          - heading "OWASP / Skeleton" [level=4] [ref=e69]
+          - paragraph [ref=e70]: Security testing templates and experiment pages.
+      - link "IP API Parser Fetches geolocation and IP info with privacy-focused fallbacks." [ref=e71] [cursor=pointer]:
+        - /url: /parsing_api.html
+        - img [ref=e73]
+        - generic [ref=e75]:
+          - heading "IP API Parser" [level=4] [ref=e76]
+          - paragraph [ref=e77]: Fetches geolocation and IP info with privacy-focused fallbacks.
+    - heading "Templates & Examples" [level=3] [ref=e78]
+    - generic [ref=e79]:
+      - link "Basic Skeleton HTML skeleton template for building experiments and pages." [ref=e80] [cursor=pointer]:
+        - /url: /basic.html
+        - img [ref=e82]
+        - generic [ref=e84]:
+          - heading "Basic Skeleton" [level=4] [ref=e85]
+          - paragraph [ref=e86]: HTML skeleton template for building experiments and pages.
+      - link "Random Test Page Dynamic last-modified timestamp and test utilities." [ref=e87] [cursor=pointer]:
+        - /url: /random.html
+        - img [ref=e89]
+        - generic [ref=e91]:
+          - heading "Random Test Page" [level=4] [ref=e92]
+          - paragraph [ref=e93]: Dynamic last-modified timestamp and test utilities.
+      - link "Ad Blocker Test Check whether ad-blocking browser extensions are active." [ref=e94] [cursor=pointer]:
+        - /url: /AdBlockerTestPage.html
+        - img [ref=e96]
+        - generic [ref=e98]:
+          - heading "Ad Blocker Test" [level=4] [ref=e99]
+          - paragraph [ref=e100]: Check whether ad-blocking browser extensions are active.
+      - link "Everyday Gear Reviews Example blog-style page demonstrating article structure and ads." [ref=e101] [cursor=pointer]:
+        - /url: /gpt5_basic_page.html
+        - img [ref=e103]
+        - generic [ref=e105]:
+          - heading "Everyday Gear Reviews" [level=4] [ref=e106]
+          - paragraph [ref=e107]: Example blog-style page demonstrating article structure and ads.
+      - link "Clean AdSense Template Dark-mode friendly template showing policy-friendly ad placement." [ref=e108] [cursor=pointer]:
+        - /url: /gpt5_basic_page_v2.html
+        - img [ref=e110]
+        - generic [ref=e112]:
+          - heading "Clean AdSense Template" [level=4] [ref=e113]
+          - paragraph [ref=e114]: Dark-mode friendly template showing policy-friendly ad placement.
+    - paragraph:
+      - time
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]: © 2025 Input Drive Security
+    - link "Contact" [ref=e118] [cursor=pointer]:
+      - /url: /contact.html
+    - status [ref=e119]
+```
