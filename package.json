@@ -1,5 +1,10 @@
 {
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.1",
     "playwright": "^1.58.1"
+  },
+  "scripts": {
+    "test:a11y": "playwright test tests/a11y.spec.js --workers=2"
   }
 }
