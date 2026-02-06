@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "route": "/index.html",
+      "redirect": "https://www.inputdrivesecurity.com/",
+      "statusCode": 301
+    },
+    {
+      "route": "/",
+      "redirect": "https://www.inputdrivesecurity.com/",
+      "statusCode": 301
+    }
+  ],
+  "globalHeaders": {
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "geolocation=()",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com;"
+  }
+}
