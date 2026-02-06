@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hi,  I'm   G r e g 👋
 
 Welcome to my GitHub profile! I'm passionate about building tools, learning new technologies, and sharing knowledge with the developer community.
@@ -21,3 +22,6 @@ This repository hosts [inputdrivesecurity.us](https://inputdrivesecurity.us), a 
 - Educational web applications
 
 Feel free to explore my repositories, contribute, or reach out for collaboration opportunities!
+=======
+# www-ids-com
+>>>>>>> origin/main
