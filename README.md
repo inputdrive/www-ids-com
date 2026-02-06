@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I'm passionate about building tools, learning new 
 
 ## Featured Projects
 
-This repository hosts [inputdrivesecurity.us](https://inputdrivesecurity.us), a collection of web-based tools and calculators including:
+This repository hosts [inputdrivesecurity.com](https://inputdrivesecurity.com), a collection of web-based tools and calculators including:
 - Mortgage calculators (basic and advanced)
 - Security and privacy tools
 - Educational web applications
